@@ -1,2 +1,2 @@
 # Internet
-Different pagees and css
+Different pagees and styles
