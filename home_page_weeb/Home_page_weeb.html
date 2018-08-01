@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> UwU </title>
+		<link rel="stylesheet" type="text/css" href="style_div.css">
+
+		<style type="text/css">
+
+
+			body
+			{
+			font-family:Sans-serif;
+			background-color:rgb(43,46,55);
+			line-height:150%;
+			}
+
+			a.nounderline:link
+			{
+			text-decoration:none;
+			}
+
+			a
+			{
+			color:white;
+			}
+
+			p
+			{
+			font-size:20px;
+			color:#4b576f;
+			}
+
+			p#title
+			{
+			font-weight:600;
+			font-size:30px;
+			color:white;
+			}
+
+			.contenu
+			{
+			margin:auto;
+			margin-top:250px;
+			width:44%;
+			background:rgb(80,147,225);
+			display:table;
+			}
+
+			#un,#deux,#trois,#quatre
+			{
+			float:left;
+			padding-left:50px;
+			padding-right:50px;
+			}
+
+			@media screen and (min-width:601px) and (max-width:1876px)
+			{
+				.contenu
+				{
+				background:rgb(80,147,225) !important;
+				width:450px;
+				}
+			}
+
+			@media screen and (max-width:600px)
+			{
+				.contenu
+				{
+				background:rgb(80,147,225) !important;
+				width:250px;
+				margin-top:50px;
+				}
+
+				#un,#deux,#trois,#quatre
+				{
+				float:none;
+				}
+			}
+		</style>
+
+    </head>
+
+    <body>
+  		<div class="contenu">
+  			<div class="gauche">
+  				<div id=un>
+  					<p id="title"> Videos </p>
+  						<p> <a href="https://www.youtube.com/" class="nounderline"> home </a> </p>
+  						<p> <a href="https://www.youtube.com/feed/subscriptions" class="nounderline"> subs </a> </p>
+  				</div>
+
+  				<div id=deux>
+  					<p id="title"> Useful </p>
+  						<p> <a href="http://horriblesubs.info/" class="nounderline"> horriblesubs </a> </p>
+  						<p> <a href="https://osu.ppy.sh/p/beatmaplist" class="nounderline"> osu </a> </p>
+  						<p> <a href="http://tparser.org/" class="nounderline"> tparser </a> </p>
+
+  				</div>
+  			</div>
+  			<div id=trois class="droite">
+  				<p id="title"> Other </p>
+  					<p> <a href="http://hinata-online-community.fr/"  class="nounderline"> Weeb Shit </a> </p>
+					<p> <a href="https://scrap.tf/"  class="nounderline"> scrap.tf </a> </p>  					
+					<p> <a href="http://resizeimage.net/"  class="nounderline"> resize </a> </p>
+  			</div>
+
+  			<div id=quatre class="droite">
+  				<p id="title"> 4chan </p>
+  					<p> <a href="http://boards.4chan.org/g/" class="nounderline"> /g/ </a> </p>					
+					<p> <a href="http://boards.4chan.org/w/" class="nounderline"> /w/ </a> </p>		
+  			</div>
+  		</div>
+		<div id=image>
+			<img src="cute.png" style="float:auto;margin-top:-32px";>
+		</div>
+    </body>
+</html>
